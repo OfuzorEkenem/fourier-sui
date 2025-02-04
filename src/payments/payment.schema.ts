@@ -26,7 +26,7 @@ export enum TokenType {
     TUSD = 'TUSD',
 }
 
-interface Details {
+export interface Details {
     [key: string]: any;
 }
 

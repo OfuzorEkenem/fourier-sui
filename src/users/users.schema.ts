@@ -18,9 +18,6 @@ export class User {
 
     @Prop({ required: true })
     agent: string;
-
-    @Prop()
-    createdAt: Date;
 }
 
 export const UserSchema = SchemaFactory.createForClass(User);
